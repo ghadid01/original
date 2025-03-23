@@ -1,0 +1,20 @@
+
+[versions]
+
+coil = "3.1.0" # Use the latest version of Coil
+firebase-bom = "33.10.0"
+firebase-analytics = "22.3.0"
+firebase-firestore = "25.1.2"
+kotlinx-coroutines = "1.10.2"
+
+[libraries]
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx", version.ref = "firebase-analytics" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebase-firestore" }
+kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "15.0.0" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.1.20-RC2" }
+google-services = { id = "com.google.gms.google-services", version = "4.4.2" }
