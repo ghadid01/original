@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Faulu International</string>
+    <string name="header_title">Faulu International</string>
+    <string name="location">Location: Nairobi, Ngong\' Rd</string>
+    <string name="courses_offered">Courses Offered: KCSE &amp; IGCSE</string>
+    <string name="have_a_question">Have a Question?</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="message_hint">Message</string>
+    <string name="submit_button">Submit</string>
+    <string name="submitting_button">Submitting...</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="contact_saved">Contact saved successfully</string>
+</resources>
